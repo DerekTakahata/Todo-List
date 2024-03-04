@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Syne:wght@400..800&display=swap');
+
+body {
+  font-family: "Syne", sans-serif;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+
+form {
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+}
+
+input[type=submit] {
+  font-family: "Syne", sans-serif;
+  font-weight: 400;
+  padding: 2px 4px;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+}
